@@ -15,11 +15,11 @@ As it is a form, I need to visualize its appearance and the creation of html att
 
 Once done I will have to recover the variables of my form and processed them so that a user can not introduce what he wants (javascript injection, mysql injection), send an error message if the data entered are bad and if all that is good, send the email.
 
-###Author 
+### Author 
 
 Vanderschrieck Arnaud.
 
 
-###Acknowledgment
+### Acknowledgment
 
 Thank you to my coach and Becode.
