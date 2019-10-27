@@ -29,7 +29,7 @@
                 <div class="form-group col-md-6">
                     <label for="firstname">Your firstname :</label>
                     <input type="text" class="form-control" name="firstname" placeholder="ex: Jean">
-                    <?php echo $errorFirstName ?>
+                    <span class="help-block"><?php echo $errorFirstName ?></span>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="lastname">Your Lastname :</label>
@@ -64,7 +64,7 @@
             <div class="form-group">
                 <label for="text_area">Text area :</label>
                 <textarea class="form-control" name="text_area" cols="60" rows="6" placeholder="Tapez votre message içi..."></textarea>
-                <?php $errorTextArea ?>
+                <?php echo $errorTextArea ?>
             </div>
             <div class="form-group text-center">
                 <input type="submit" name="send">
